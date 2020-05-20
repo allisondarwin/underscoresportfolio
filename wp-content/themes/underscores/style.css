@@ -964,6 +964,7 @@ body {
 
 body {
 	height: auto;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 #page {
@@ -973,6 +974,13 @@ body {
 #masthead {
 	background: none repeat scroll 0 0 #333;
 	padding: .75em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family:'Poppins', 'Open Sans', Arial, sans-serif;
 }
 
 .site-header, .site-main, .site-footer {
@@ -995,7 +1003,8 @@ body {
 }
 
 .site-header .site-branding .site-title {
-	font: 700 1.5em/1.3125 Arial, sans-serif;
+	font: 500 1.5em/1.3125 'Poppins', 'Open Sans', Arial, sans-serif;
+	text-transform: uppercase;
 }
 
 .site-header .site-branding .site-title a {
@@ -1015,4 +1024,6 @@ body {
 	color: #fff;
 	margin: 0 1em;
 	padding: 0.25em 0;
+	font: 500 1em 'Poppins', 'Open Sans', Arial, sans-serif;
+	text-transform: uppercase;
 }
