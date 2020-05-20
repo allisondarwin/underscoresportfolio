@@ -183,3 +183,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+	*Load Google Fonts
+	*/
+function google_fonts() {
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@100;400;500;700&display=swap', false );
+}
+add_action( 'wp_enqueue_scripts', 'google_fonts' );
