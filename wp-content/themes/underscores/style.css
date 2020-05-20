@@ -951,3 +951,68 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/**** Body Styles ****/
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	height: auto;
+}
+
+#page {
+	width: 100%;
+}
+
+#masthead {
+	background: none repeat scroll 0 0 #333;
+	padding: .75em 0;
+}
+
+.site-header, .site-main, .site-footer {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/**** Header Styles ****/
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width: 100%;
+}
+
+.site-header .site-branding {
+	width: 50%;
+}
+
+.site-header .site-branding .site-title {
+	font: 700 1.5em/1.3125 Arial, sans-serif;
+}
+
+.site-header .site-branding .site-title a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.site-header .site-branding .site-description {
+	display: none;
+}
+
+.site-header .main-navigation {
+	width: 30%;
+}
+
+.site-header .main-navigation ul li a {
+	color: #fff;
+	margin: 0 1em;
+	padding: 0.25em 0;
+}
