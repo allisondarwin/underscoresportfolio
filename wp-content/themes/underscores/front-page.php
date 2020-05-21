@@ -11,8 +11,8 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-		<div class="site-content">
+	<main id="primary" class="site-main homepage">
+		<div class="site-content hero-content">
 			<?php
 			while ( have_posts() ) :
 				the_post();

@@ -1008,6 +1008,7 @@ h4 {
 .site-header .site-branding .site-title {
 	font: 500 1.5em/1.3125 'Poppins', 'Open Sans', Arial, sans-serif;
 	text-transform: uppercase;
+	margin: 0.5em 0;
 }
 
 .site-header .site-branding .site-title a {
@@ -1029,4 +1030,29 @@ h4 {
 	padding: 0.25em 0;
 	font: 500 1em 'Poppins', 'Open Sans', Arial, sans-serif;
 	text-transform: uppercase;
+}
+
+/**** Homepage Styles ****/
+
+.homepage {
+	background: url("img/hero-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	height: auto;
+	margin: 0 0 5em;
+	padding: 8em 0;
+	text-align: center;
+}
+
+.hero-content {
+	min-height: 450px;
+}
+
+.hero-content h1 {
+	font-size: 3em;
+	font-weight: 500;
+}
+
+.hero-content h2 {
+	font-size: 1.75em;
+	font-weight: 500;
+	margin-top: 0;
 }
