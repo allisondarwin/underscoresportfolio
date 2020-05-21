@@ -983,7 +983,11 @@ h4 {
 	font-family:'Poppins', 'Open Sans', Arial, sans-serif;
 }
 
-.site-header, .site-main, .site-footer {
+/*.site-header, .site-main, .site-footer {
+	width: 100%;
+}*/
+
+.site-content{
 	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
@@ -991,15 +995,14 @@ h4 {
 
 /**** Header Styles ****/
 
-.site-header {
+.site-header .site-content {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	width: 100%;
 }
 
 .site-header .site-branding {
-	width: 50%;
+	width: 30%;
 }
 
 .site-header .site-branding .site-title {
@@ -1017,7 +1020,7 @@ h4 {
 }
 
 .site-header .main-navigation {
-	width: 30%;
+	width: 40%;
 }
 
 .site-header .main-navigation ul li a {
