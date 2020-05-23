@@ -57,3 +57,142 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/** Clearfix **/
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+	table-layout: fixed;
+}
+
+.clearfix:after {
+	clear: both;
+}
+/** end CSS reset **/
+
+/** theme styles start here! **/
+
+/* MAIN STYLES */
+header,
+footer,
+section,
+aside,
+time,
+article {
+   display: block;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+b,
+strong {
+   font-weight: bold;
+   font-weight: 700;
+}
+dfn,
+cite,
+em,
+i {
+   font-style: italic;
+}
+p {
+   color: #3b3b3b;
+   font: 17px/1.65 'Open Sans', Arial, sans-serif;
+   margin: 1em auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 2em 0 .5em;
+   font: 700 1em/1.75 'Poppins', 'Open Sans', Arial, sans-serif;
+}
+h1 {
+   font-size: 24px;
+   font-size: 1.5em;
+   line-height: 2.25;
+}
+h2 {
+   font-size: 20px;
+   font-size: 1.25em;
+   line-height: 2;
+}
+h3 {
+   font-size: 18px;
+   font-size: 1.125em;
+   line-height: 1.75;
+}
+h4 {
+	font-size: 16px;
+    font-size: 1em;
+}
+ h5 {
+	 font-size: 16px;
+	 font-size: 1em;
+	 text-transform: uppercase;
+}
+ul {
+   margin: 1em 0 1em 1.125em;
+}
+blockquote {
+   margin: 2em;
+   padding: 0 1em;
+}
+blockquote p {
+   font: 1.6em/1.6 'Poppins', 'Open Sans', Arial, sans-serif;
+}
+blockquote p:before {
+   content: '“';
+   font: 1.5em/1 'Poppins', 'Open Sans', Arial, sans-serif;
+   margin-left: -.6em;
+   padding-right: .25em;
+}
+blockquote p:after {
+   content: '”';
+   font: 1.5em/1 'Poppins', 'Open Sans', Arial, sans-serif;
+   margin-right: -1em;
+   padding-left: .25em;
+}
+blockquote footer {
+   font: 1.25em/1 'Poppins', 'Open Sans', Arial, sans-serif;
+}
+blockquote footer:before {
+   content: '—';
+}
+figure, img {
+   max-width: 100%;
+   height: auto;
+}
+iframe {
+   width: 100%;
+}
+input {
+	font: 1em 'OpenSans', Arial, sans-serif;
+	line-height: 2;
+	height: 2.3125em;
+	border: 1px solid #BFBFBF;
+	margin: 0;
+	padding: 0.3em 0.625em;
+	background: #fff;
+	vertical-align: middle;
+}
+input[type="button"],
+input[type="submit"] {
+	font: 700 1em/1 'Poppins', 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	background: #333;
+	border: none;
+	padding: 1em 3.75em;
+	text-align: center;
+}
+/* End MAIN STYLES */
