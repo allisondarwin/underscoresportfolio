@@ -50,3 +50,17 @@ function adwd_scripts() {
     wp_enqueue_style( 'adwd-google-fonts', 'https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap' );
 }
 add_action( 'wp_enqueue_scripts', 'adwd_scripts' );
+
+// Register widget area
+function adwd_widgets_init() {
+	register_sidebar( array(
+		'name'          => __( 'Widget Area', 'adwd' ),
+		'id'            => 'sidebar-1',
+		'description'   => __( 'Add widgets here to appear in your blog sidebar.', 'adwd' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'adwd_widgets_init' );
