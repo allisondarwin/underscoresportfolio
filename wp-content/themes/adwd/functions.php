@@ -43,3 +43,10 @@ function adwd_setup() {
     ) );
 }
 add_action( 'after_setup_theme', 'adwd_setup' );
+
+// Enqueue scripts and styles.
+function adwd_scripts() {
+	wp_enqueue_style( 'adwd-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'adwd-google-fonts', 'https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap' );
+}
+add_action( 'wp_enqueue_scripts', 'adwd_scripts' );
