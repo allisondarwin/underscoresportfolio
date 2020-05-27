@@ -966,6 +966,7 @@ body {
 body {
 	height: auto;
 	font-family: 'Open Sans', Arial, sans-serif;
+	color: #1F3649;
 }
 
 #page {
@@ -983,6 +984,30 @@ h3,
 h4,
 h5 {
 	font-family:'Raleway', 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+   font-size: 24px;
+   font-size: 1.5em;
+}
+h2 {
+   font-size: 20px;
+   font-size: 1.25em;
+}
+h3 {
+   font-size: 18px;
+   font-size: 1.125em;
+   line-height: 1.75;
+}
+h4 {
+	font-size: 16px;
+    font-size: 1em;
+}
+ h5 {
+	 font-size: 16px;
+	 font-size: 1em;
+	 text-transform: uppercase;
 }
 
 /*.site-header, .site-main, .site-footer {
@@ -1069,12 +1094,12 @@ h5 {
 	padding: 0 1em;
 }
 
-/**** Homepage Styles ****/
+/**** Homepage Styles - Hero Area ****/
 
 .homepage {
 	background: url("img/hero-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 	height: auto;
-	margin: 0 0 5em;
+	/*margin: 0 0 5em;*/
 	padding: 8em 0;
 	text-align: center;
 }
@@ -1086,7 +1111,6 @@ h5 {
 .hero-content h1 {
 	color: #1F3649;
 	font-size: 3.5em;
-	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 0.25em;
 }
@@ -1094,7 +1118,6 @@ h5 {
 .hero-content h2 {
 	color: #1F3649;
 	font-size: 1.75em;
-	font-weight: 700;
 	margin: 0 0 1.5em;
 }
 
@@ -1109,4 +1132,35 @@ h5 {
 	font-size: 1.25em;
 	padding: 0.5em 1.5em;
 	text-decoration: none;
+}
+
+/**** homepage styles - services****/
+
+.homepage-services {
+	background: #fbfbfb;
+	padding: 3em 0;
+}
+
+.homepage-services .site-content {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: row wrap;
+}
+
+.homepage-services h2 {
+	font-size: 1.75em;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.homepage-services .service-items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	align-content: flex-start;
+	width: 100%;
 }

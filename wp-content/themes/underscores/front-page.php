@@ -27,8 +27,19 @@ get_header();
 
 			endwhile; // End of the loop.
 			?>
-		</div><!--- end .site-content -->
+		</div><!--- end .site-content .hero-content -->
 	</main><!-- #main -->
+
+	<section class="homepage-services">
+		<div class="site-content">
+			<h2>How can I help?</h2>
+			<ul class="service-items">
+				<li>placeholder item</li>
+				<li>placeholder item</li>
+				<li>placeholder item</li>
+			</ul>
+		</div>
+	</section><!--end adwd services-->
 
 <?php
 get_footer();
