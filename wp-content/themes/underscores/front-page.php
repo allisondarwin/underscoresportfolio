@@ -33,11 +33,20 @@ get_header();
 	<section class="homepage-services">
 		<div class="site-content">
 			<h2>How can I help?</h2>
-			<ul class="service-items">
-				<li>placeholder item</li>
-				<li>placeholder item</li>
-				<li>placeholder item</li>
-			</ul>
+			<div class="service-items">
+				<article class="individual-service-item">
+					<h3><?php the_field('first_service_title'); ?></h3>
+					<p><?php the_field('first_service_description'); ?></p>
+				</article>
+				<article class="individual-service-item">
+					<h3><?php the_field('second_service_title'); ?></h3>
+					<p><?php the_field('second_service_description'); ?></p>
+				</article>
+				<article class="individual-service-item">
+					<h3><?php the_field('third_service_title'); ?></h3>
+					<p><?php the_field('third_service_description'); ?></p>
+				</article>
+			</div>
 		</div>
 	</section><!--end adwd services-->
 

@@ -1149,18 +1149,36 @@ h4 {
 }
 
 .homepage-services h2 {
-	font-size: 1.75em;
+	font-size: 2em;
 	margin: 0;
 	width: 100%;
 	text-align: center;
 }
 
 .homepage-services .service-items {
-	list-style: none;
-	padding: 0;
-	margin: 0;
 	display: flex;
 	justify-content: space-around;
-	align-content: flex-start;
+	align-content: center;
 	width: 100%;
+}
+
+.homepage-services .individual-service-item {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	flex-flow: row wrap;
+	margin: 0 0.8em;
+}
+
+.homepage-services .individual-service-item h3 {
+	color: #2E9470;
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+}
+
+.homepage-services .individual-service-item p {
+	text-align: center;
+	font-size: 1.25em;
+	margin: 0;
 }
