@@ -190,3 +190,23 @@ function google_fonts() {
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Raleway:400,600,700|Open+Sans:400,400i,600,600i,700,700i');
 }
 add_action( 'wp_enqueue_scripts', 'google_fonts' );
+
+//Custom post types function
+
+function create_custom_post_types() {
+//Create case study custom post type
+		register_post_type('case_studies',
+			array(
+				'labels' => array(
+					'name' => __( 'Case Studies' ),
+					'singular_name' => __( 'Case Study' )
+					),
+				'public' => true,
+				'has_archive' => true,
+				'rewrite' => array(
+					'slug' => 'case-studies'
+				),
+			)
+		);
+}
+add_action( 'init', 'create_custom_post_types' );
