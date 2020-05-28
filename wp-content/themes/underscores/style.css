@@ -1112,14 +1112,14 @@ figure {
 	min-height: 250px;
 }*/
 
-.hero-content h1 {
+.homepage .hero-content h1 {
 	font-size: 3.5em;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 0.25em;
 }
 
-.hero-content h2 {
+.homepage .hero-content h2 {
 	font-size: 1.75em;
 	margin: 0 0 1.5em;
 }
@@ -1128,7 +1128,7 @@ figure {
 	margin: 0;
 }
 
-.hero-content .cta-button {
+.homepage .hero-content .cta-button {
 	background: #2E9470;
 	border-radius: 5px;
 	color: #fff;
@@ -1192,4 +1192,32 @@ figure {
 .homepage-services .service-icon i {
 	color: #2E9470;
 	font-size: 4em;
+}
+
+/**** Single Case Study Styles ****/
+
+.single-case-study {
+	background: url("img/hero-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	height: auto;
+	/*margin: 0 0 5em;*/
+	padding: 8em 0;
+	text-align: center;
+}
+
+.single-case-study .hero-content h1 {
+	font-size: 3.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 0.25em;
+}
+
+.single-case-study .hero-content h2 {
+	font-size: 1.75em;
+	margin: 0 0 1.5em;
+}
+
+.case-study-content span {
+	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+	color: #2E9470;
+	font-weight: 700;
 }
