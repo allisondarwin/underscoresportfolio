@@ -18,7 +18,7 @@ get_header();
 				the_post();
 
 				get_template_part( 'template-parts/content', 'page' );?>
-				<a class="cta-button" href="<?php echo site_url('/#/') ?>">View Work</a><?php
+				<a class="cta-button" href="<?php echo site_url('/#/') ?>">Get in Touch</a><?php
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				 if ( comments_open() || get_comments_number() ) :
@@ -35,14 +35,23 @@ get_header();
 			<h2>How can I help?</h2>
 			<div class="service-items">
 				<article class="individual-service-item">
+					<figure class="service-icon">
+						<i class="fas fa-desktop"></i>
+					</figure>
 					<h3><?php the_field('first_service_title'); ?></h3>
 					<p><?php the_field('first_service_description'); ?></p>
 				</article>
 				<article class="individual-service-item">
+					<figure class="service-icon">
+						<i class="far fa-edit"></i>
+					</figure>
 					<h3><?php the_field('second_service_title'); ?></h3>
 					<p><?php the_field('second_service_description'); ?></p>
 				</article>
 				<article class="individual-service-item">
+					<figure class="service-icon">
+						<i class="fas fa-bullhorn"></i>
+					</figure>
 					<h3><?php the_field('third_service_title'); ?></h3>
 					<p><?php the_field('third_service_description'); ?></p>
 				</article>

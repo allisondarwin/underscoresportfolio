@@ -984,7 +984,7 @@ h3,
 h4,
 h5 {
 	font-family:'Raleway', 'Open Sans', Arial, sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 h1 {
@@ -1008,6 +1008,10 @@ h4 {
 	 font-size: 16px;
 	 font-size: 1em;
 	 text-transform: uppercase;
+}
+
+figure {
+	margin: 0;
 }
 
 /*.site-header, .site-main, .site-footer {
@@ -1041,7 +1045,7 @@ h4 {
 }
 
 .site-header .site-branding .site-title a {
-	color: #e1e1e1;
+	color: #f3f3f3;
 	text-decoration: none;
 }
 
@@ -1054,12 +1058,12 @@ h4 {
 }
 
 .site-header .main-navigation ul li a {
-	color: #e1e1e1;
+	color: #f3f3f3;
 	margin: 0 1em;
 	padding: 0.5em 0;
 	font-family: 'Raleway','Open Sans', Arial, sans-serif;
 	font-size: 1.25em;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /**** Footer Styles ****/
@@ -1109,14 +1113,13 @@ h4 {
 }*/
 
 .hero-content h1 {
-	color: #1F3649;
 	font-size: 3.5em;
+	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 0.25em;
 }
 
 .hero-content h2 {
-	color: #1F3649;
 	font-size: 1.75em;
 	margin: 0 0 1.5em;
 }
@@ -1137,8 +1140,8 @@ h4 {
 /**** homepage styles - services****/
 
 .homepage-services {
-	background: #fbfbfb;
-	padding: 3em 0;
+	background: #1F3649;
+	padding: 4em 0;
 }
 
 .homepage-services .site-content {
@@ -1149,6 +1152,7 @@ h4 {
 }
 
 .homepage-services h2 {
+	color: #f3f3f3;
 	font-size: 2em;
 	margin: 0;
 	width: 100%;
@@ -1160,6 +1164,7 @@ h4 {
 	justify-content: space-around;
 	align-content: center;
 	width: 100%;
+	margin-top: 3em;
 }
 
 .homepage-services .individual-service-item {
@@ -1178,7 +1183,13 @@ h4 {
 }
 
 .homepage-services .individual-service-item p {
+	color: #f3f3f3;
 	text-align: center;
 	font-size: 1.25em;
 	margin: 0;
+}
+
+.homepage-services .service-icon i {
+	color: #2E9470;
+	font-size: 4em;
 }

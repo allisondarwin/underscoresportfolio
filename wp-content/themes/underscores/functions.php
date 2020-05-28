@@ -187,6 +187,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	*Load Google Fonts
 	*/
 function google_fonts() {
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;600&display=swap');
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Raleway:400,600,700|Open+Sans:400,400i,600,600i,700,700i');
 }
 add_action( 'wp_enqueue_scripts', 'google_fonts' );
