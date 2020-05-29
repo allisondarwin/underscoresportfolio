@@ -34,12 +34,27 @@ get_header();
   <article class="case-study-content">
     <div class="site-content">
       <div class="case-study-text">
-        <h3><span>Client:</span> <?php the_field('case_study_client'); ?></h3>
-				<h4><?php the_field('case_study_services'); ?></h4>
-        <p><span>The problem:</span> <?php the_field('case_study_problem'); ?></p>
-        <p><span>The solution:</span> <?php the_field('case_study_solution'); ?></p>
-        <p><span>The results:</span> <?php the_field('case_study_results'); ?></p>
-				<p class="visit-live-site-link"><a href='#' target='_blank'>Visit Live Site</a></p>
+				<?php
+					$client = get_field('case_study_client');
+					$services = get_field('case_study_services');
+					$problem = get_field('case_study_problem');
+					$solution = get_field('case_study_solution');
+					$results = get_field('case_study_results');
+					$link = get_field('case_study_link');
+					$testimonial = get_field('case_study_testimonial')?>
+        <h3><span>Client:</span> <?php echo $client ?></h3>
+				<h4><?php echo $services ?></h4>
+        <p><span>The problem:</span> <?php echo $problem ?></p>
+        <p><span>The solution:</span> <?php echo $solution ?></p>
+				<?php if ($results) { ?>
+        	<p><span>The results:</span> <?php echo $results ?></p>
+				<?php } ?>
+				<?php if ($link) { ?>
+					<p class="visit-live-site-link"><a href='<?php echo $link ?>' target='_blank'>Visit Live Site &gt;</a></p>
+				<?php } ?>
+				<?php if ($testimonial) { ?>
+					<p class="client-$testimonial"><span>Client says:</span> <em><?php echo $testimonial ?></em></p>
+				<?php } ?>
       </div>
       <div class="case-study-images">
 				<?php

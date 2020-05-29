@@ -1057,6 +1057,12 @@ figure {
 	width: 40%;
 }
 
+.site-header .main-navigation ul {
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+}
+
 .site-header .main-navigation ul li {
 	margin-top: 5px;
 }
@@ -1218,6 +1224,10 @@ figure {
 	margin: 0 0 1.5em;
 }
 
+.case-study-content {
+	margin: 100px 0;
+}
+
 .case-study-content .site-content {
 	display: flex;
 	justify-content: space-between;
@@ -1236,4 +1246,31 @@ figure {
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
 	color: #2E9470;
 	font-weight: 700;
+}
+
+.case-study-content .case-study-text h3 {
+	font-size: 1.56em;
+	margin: 0;
+}
+
+.case-study-content .case-study-text h4 {
+	color: #bfbfbf;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 0.875em;
+	margin: 0.5em 0;
+}
+
+.case-study-content .case-study-text p {
+	line-height: 1.65em;
+}
+
+.case-study-text .visit-live-site-link a {
+	color: #2E9470;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.case-study-images img {
+	margin-bottom: 50px;
 }
