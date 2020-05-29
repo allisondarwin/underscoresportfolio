@@ -1112,7 +1112,7 @@ figure {
 /**** Homepage Styles - Hero Area ****/
 
 .homepage {
-	background: url("img/hero-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	background: url("img/hero-img.jpg") no-repeat fixed right center / cover rgba(0, 0, 0, 0);
 	height: auto;
 	/*margin: 0 0 5em;*/
 	padding: 8em 0;
@@ -1206,7 +1206,7 @@ figure {
 /**** Single Case Study Styles ****/
 
 .single-case-study {
-	background: url("img/hero-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	background: url("img/hero-img.jpg") no-repeat fixed right center / cover rgba(0, 0, 0, 0);
 	height: auto;
 	padding: 5em 0;
 	text-align: center;
