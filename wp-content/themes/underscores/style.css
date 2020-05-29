@@ -1202,21 +1202,34 @@ figure {
 .single-case-study {
 	background: url("img/hero-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 	height: auto;
-	/*margin: 0 0 5em;*/
-	padding: 8em 0;
+	padding: 5em 0;
 	text-align: center;
 }
 
 .single-case-study .hero-content h1 {
-	font-size: 3.5em;
+	font-size: 3em;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 0.25em;
 }
 
 .single-case-study .hero-content h2 {
-	font-size: 1.75em;
+	font-size: 1.5em;
 	margin: 0 0 1.5em;
+}
+
+.case-study-content .site-content {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.case-study-content .case-study-text {
+	width: 40%;
+}
+
+.case-study-content .case-study-images {
+	width: 50%;
 }
 
 .case-study-content span {
