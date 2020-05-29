@@ -32,7 +32,7 @@ get_header();
 
 	<section class="homepage-services">
 		<div class="site-content">
-			<h2>How can I help?</h2>
+			<h2>How can I help you?</h2>
 			<div class="service-items">
 				<article class="individual-service-item">
 					<figure class="service-icon">

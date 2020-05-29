@@ -984,7 +984,7 @@ h3,
 h4,
 h5 {
 	font-family:'Raleway', 'Open Sans', Arial, sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 h1 {
@@ -1039,7 +1039,7 @@ figure {
 .site-header .site-branding .site-title {
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
 	font-size: 1.75em;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	text-transform: uppercase;
 	margin: 0.15em 0;
 }
@@ -1057,13 +1057,18 @@ figure {
 	width: 40%;
 }
 
+.site-header .main-navigation ul li {
+	margin-top: 5px;
+}
+
 .site-header .main-navigation ul li a {
 	color: #f3f3f3;
 	margin: 0 1em;
 	padding: 0.5em 0;
-	font-family: 'Raleway','Open Sans', Arial, sans-serif;
-	font-size: 1.25em;
-	font-weight: 600;
+	text-transform: uppercase;
+	/*font-family: 'Raleway','Open Sans', Arial, sans-serif;*/
+	/*font-size: 1.25em;
+	font-weight: 600;*/
 }
 
 /**** Footer Styles ****/
@@ -1114,7 +1119,7 @@ figure {
 
 .homepage .hero-content h1 {
 	font-size: 3.5em;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 0.25em;
 }
@@ -1140,7 +1145,7 @@ figure {
 /**** homepage styles - services****/
 
 .homepage-services {
-	background: #1F3649;
+	background: #f3f3f3;
 	padding: 4em 0;
 }
 
@@ -1152,7 +1157,6 @@ figure {
 }
 
 .homepage-services h2 {
-	color: #f3f3f3;
 	font-size: 2em;
 	margin: 0;
 	width: 100%;
@@ -1183,7 +1187,6 @@ figure {
 }
 
 .homepage-services .individual-service-item p {
-	color: #f3f3f3;
 	text-align: center;
 	font-size: 1.25em;
 	margin: 0;
