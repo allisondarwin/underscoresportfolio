@@ -1203,6 +1203,40 @@ figure {
 	font-size: 4em;
 }
 
+.featured-work {
+	background: #fff;
+	padding: 4em;
+}
+
+.featured-work .site-content {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: row wrap;
+}
+
+.featured-work h2 {
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+.featured-work .homepage-featured-work {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 25px;
+	list-style: none;
+	margin: 2em 0 0;
+	padding: 0;
+}
+
+.featured-work, .homepage-featured-work li a {
+	color: #1F3649;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+}
+
 /**** Single Case Study Styles ****/
 
 .single-case-study {

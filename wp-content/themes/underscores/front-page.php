@@ -66,7 +66,7 @@ get_header();
 					<?php query_posts('posts_per_page=4&post_type=case_studies'); ?>
 						<?php while ( have_posts() ) : the_post();
 							$featured_work_image = get_field('case_study_image_1');
-							$size = 'medium';?>
+							$size = 'full';?>
 							<li class="individual-featured-work">
 								<figure class="featured-work-image">
 									<a href="<?php the_permalink(); ?>">
