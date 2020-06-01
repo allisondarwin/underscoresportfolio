@@ -59,5 +59,27 @@ get_header();
 		</div>
 	</section><!--end adwd services-->
 
+	<section class="featured-work">
+		<div class="site-content">
+			<h2>Featured Projects</h2>
+				<ul class="homepage-featured-work">
+					<?php query_posts('posts_per_page=4&post_type=case_studies'); ?>
+						<?php while ( have_posts() ) : the_post();
+							$featured_work_image = get_field('case_study_image_1');
+							$size = 'medium';?>
+							<li class="individual-featured-work">
+								<figure class="featured-work-image">
+									<a href="<?php the_permalink(); ?>">
+										<?php echo wp_get_attachment_image($featured_work_image, $size); ?>
+									</a>
+								</figure>
+								<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							</li>
+						<?php endwhile; ?>
+					<?php wp_reset_query(); //resets the altered query back to the original ?>
+				</ul>
+		</div>
+	</section>
+
 <?php
 get_footer();

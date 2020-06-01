@@ -58,18 +58,22 @@ get_header();
       </div>
       <div class="case-study-images">
 				<?php
-					$image_1 = get_field('case_study_image_1');
+					//$image_1 = get_field('case_study_image_1');
 					$image_2 = get_field('case_study_image_2');
 					$image_3 = get_field('case_study_image_3');
+					$image_4 = get_field('case_study_image_4');
 					$size = 'full'; ?>
-				<?php	if ($image_1) {
+				<?php	/*if ($image_1) {
 						echo wp_get_attachment_image($image_1, $size);
-					}?>
+					}*/?>
 				<?php	if ($image_2) {
 						echo wp_get_attachment_image($image_2, $size);
 					}?>
 				<?php	if ($image_3) {
 						echo wp_get_attachment_image($image_3, $size);
+					}?>
+				<?php	if ($image_4) {
+						echo wp_get_attachment_image($image_4, $size);
 					}?>
       </div>
     </div>
