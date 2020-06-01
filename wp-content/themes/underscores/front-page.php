@@ -81,5 +81,21 @@ get_header();
 		</div>
 	</section>
 
+	<section class="about-section">
+		<div class="site-content">
+			<h2>About Me</h2>
+			<div class="about-content">
+				<div class="about-text">
+					<?php the_field('about_description'); ?>
+				</div>
+				<figure class="about-profile-picture">
+					<?php $profile_image = get_field('about_image');
+								$profile_image_size = 'medium';
+					   echo wp_get_attachment_image($profile_image, $profile_image_size); ?>
+				</figure>
+			</div>
+		</div>
+	</section>
+
 <?php
 get_footer();

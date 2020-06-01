@@ -1237,6 +1237,10 @@ figure {
 	text-decoration: none;
 }
 
+.about-section {
+	background: #f3f3f3;
+}
+
 /**** Single Case Study Styles ****/
 
 .single-case-study {
