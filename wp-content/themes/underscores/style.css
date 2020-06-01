@@ -1241,6 +1241,38 @@ figure {
 	background: #f3f3f3;
 }
 
+.about-section .site-content {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: row wrap;
+	padding: 4em 0;
+}
+
+.about-section h2 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.about-section .about-content {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 1em 0;
+	width: 100%;
+}
+
+.about-content .about-text {
+	background: #fff;
+	border-radius: 5px;
+	padding: 1.5em 1.5em 0;
+	width: 65%;
+}
+
+.about-content .about-profile-picture img {
+	border-radius: 50%;
+}
+
 /**** Single Case Study Styles ****/
 
 .single-case-study {
