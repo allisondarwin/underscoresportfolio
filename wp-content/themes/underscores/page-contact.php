@@ -11,7 +11,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main contact-page">
 		<div class="site-content">
 			<?php
 			while ( have_posts() ) :

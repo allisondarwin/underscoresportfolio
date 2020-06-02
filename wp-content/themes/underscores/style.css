@@ -1387,3 +1387,41 @@ figure {
 .case-study-images img {
 	margin-bottom: 50px;
 }
+
+/*** Contact Page Styles ***/
+
+.contact-page .site-content {
+	padding: 4em 0;
+	width: 45%;
+}
+
+.contact-page h1 {
+	font-weight: 600;
+}
+
+.contact-page p {
+	font-size: 1.1em;
+}
+
+.contact-page label#nf-label-field-1,
+label#nf-label-field-2,
+label#nf-label-field-3,
+label#nf-label-field-5 {
+	font-size: 0.875em;
+	font-weight: 400;
+}
+
+.contact-page label#nf-label-field-6,
+label#nf-label-field-7 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.contact-page input#nf-field-4.ninja-forms-field.nf-element {
+	float: right;
+	color: #fbfbfb;
+	background: #2E9470;
+	text-transform: uppercase;
+	padding: 1em 1.75em;
+	font-weight: 600;
+}
