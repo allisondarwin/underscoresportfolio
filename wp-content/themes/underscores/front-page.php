@@ -32,7 +32,7 @@ get_header();
 
 	<section class="homepage-services">
 		<div class="site-content">
-			<h2>How can I help you?</h2>
+			<h2>What do you need help with?</h2>
 			<div class="service-items">
 				<article class="individual-service-item">
 					<figure class="service-icon">
@@ -94,6 +94,14 @@ get_header();
 					   echo wp_get_attachment_image($profile_image, $profile_image_size); ?>
 				</figure>
 			</div>
+		</div>
+	</section>
+
+	<section class="homepage-contact">
+		<div class="site-content">
+			<h2>Want a webiste that looks great and grows your business?</h2>
+			<h3>I can help.</h3>
+			<a class="cta-button" href="#">Contact Me</a>
 		</div>
 	</section>
 
