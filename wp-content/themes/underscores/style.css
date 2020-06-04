@@ -1109,9 +1109,13 @@ figure {
 
 .site-footer .social-media-menu li {
 	padding: 0 1em;
-	color: #2E9470;
 	font-weight: 600;
 	font-size: 1.2em;
+}
+
+.site-footer .social-media-menu li a {
+	color: #2E9470;
+	text-decoration: none;
 }
 
 /**** Homepage Styles - Hero Area ****/
