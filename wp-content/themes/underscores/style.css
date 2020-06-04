@@ -1301,14 +1301,14 @@ figure {
 
 .homepage-contact h2 {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 2em;
+	font-size: 1.5em; /*2em*/
 	font-weight: 600;
 	margin: 0;
-	width: 70%;
+	width: 100%; /*70%*/
 }
 
 .homepage-contact h3 {
-	font-size: 1.5em;
+	font-size: 1.25em; /*1.5em*/
 	text-transform: capitalize;
 	width: 100%;
 }
@@ -1317,8 +1317,8 @@ figure {
 	background: #2E9470;
 	border-radius: 5px;
 	color: #f3f3f3;
-	font-size: 1em;
-	padding: 0.75em 1.5em;
+	font-size: 0.875em; /*1em*/
+	padding: 0.75em 1.25em;  /*0.75em 1.5em*/
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -1513,6 +1513,19 @@ label#nf-label-field-7 {
 		grid-gap: 25px;
 	}
 
+	.homepage-contact h2 {
+		font-size: 2em;
+		width: 100%; /*70%*/
+	}
+
+	.homepage-contact h3 {
+		font-size: 1.5em;
+	}
+
+	.homepage-contact .cta-button {
+		font-size: 1em;
+	}
+
 
 	/*** Contact Page ***/
 
@@ -1551,12 +1564,21 @@ label#nf-label-field-7 {
 	}
 
 	.about-content .about-text {
-		width: 65%; /*65%*/
-		margin-bottom: 0; 
+		width: 65%;
+		margin-bottom: 0;
 	}
 
 	.about-content .about-profile-picture {
 		display: block;
+	}
+
+	.homepage-contact h2 {
+		width: 70%;
+	}
+
+	.homepage-contact .cta-button {
+		font-size: 1em;
+		padding: 0.75em 1.5em;
 	}
 
 
