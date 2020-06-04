@@ -1021,7 +1021,6 @@ figure {
 
 .site-content{
 	width: 90%;
-	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -1040,7 +1039,6 @@ figure {
 .site-header .site-branding .site-title {
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
 	font-size: 1.75em;
-	/*font-weight: 700;*/
 	text-transform: uppercase;
 	margin: 0.15em 0;
 }
@@ -1073,9 +1071,6 @@ figure {
 	margin: 0 1em;
 	padding: 0.5em 0;
 	text-transform: uppercase;
-	/*font-family: 'Raleway','Open Sans', Arial, sans-serif;*/
-	/*font-size: 1.25em;
-	font-weight: 600;*/
 }
 
 /**** Footer Styles ****/
@@ -1087,24 +1082,26 @@ figure {
 
 .site-footer .site-content {
 	display: flex;
-	justify-content: space-between;
+	flex-flow: column wrap;
+	justify-content: center;
 	align-content: center;
 	font-size: 0.875em;
 	color: #f3f3f3;
+	text-align: center;
 }
 
 .site-footer .site-info, .social-media {
-	width: 50%;
+	width: 100%;
 }
 
 .site-footer .social-media-menu {
 	display: flex;
 	width: 100%;
-	justify-content: flex-end;
+	justify-content: center;
 	align-content: center;
 	list-style: none;
 	padding: 0;
-	margin: 1em 0 0;
+	margin: 1em 0; 
 }
 
 .site-footer .social-media-menu li {
@@ -1454,9 +1451,39 @@ label#nf-label-field-7 {
 }
 
 @media only screen and (min-width: 768px) {
+	/*General styles*/
+
+	/*Footer styles*/
+
+	.site-footer .site-content {
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		text-align: left;
+	}
+
+	.site-footer .site-info {
+		width: 60%;
+	}
+
+	.site-footer .social-media {
+		width: 40%;
+	}
+
+	.site-footer .social-media-menu {
+		justify-content: flex-end;
+		margin: 1em 0 0;
+	}
 
 }
 
 @media only screen and (min-width: 1200px) {
+/*General styles*/
+	.site-content{
+		max-width: 960px;
+	}
+
+	.site-footer .site-info, .social-media {
+		width: 50%;
+	}
 
 }
