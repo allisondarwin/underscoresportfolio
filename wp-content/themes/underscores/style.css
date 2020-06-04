@@ -1082,6 +1082,7 @@ figure {
 
 .site-footer {
 	background: #1F3649;
+	padding-top: 1em;
 }
 
 .site-footer .site-content {
@@ -1108,6 +1109,9 @@ figure {
 
 .site-footer .social-media-menu li {
 	padding: 0 1em;
+	color: #2E9470;
+	font-weight: 600;
+	font-size: 1.2em;
 }
 
 /**** Homepage Styles - Hero Area ****/
