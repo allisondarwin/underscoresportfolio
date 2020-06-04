@@ -1218,15 +1218,14 @@ figure {
 }
 
 .featured-work h2 {
-	font-size: 2em;
 	text-align: center;
 	width: 100%;
 }
 
 .featured-work .homepage-featured-work {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 25px;
+	grid-template-columns: repeat(1, 1fr);   /*repeat(2, 1fr)*/
+	grid-gap: 50px; /*25px*/
 	list-style: none;
 	margin: 2em 0 0;
 	padding: 0;
@@ -1252,7 +1251,6 @@ figure {
 }
 
 .about-section h2 {
-	font-size: 2em;
 	margin: 0;
 }
 
@@ -1262,6 +1260,7 @@ figure {
 	align-content: center;
 	margin: 3em 0 1em;
 	width: 100%;
+	flex-flow: column wrap; /*added for mobile*/
 }
 
 .about-content .about-text {
@@ -1269,7 +1268,14 @@ figure {
 	border-radius: 5px;
 	font-size: 1.1em;
 	padding: 1.5em 1.5em 0;
-	width: 65%;
+	width: 100%; /*65%*/
+	margin-bottom: 3em; /*added for mobile*/
+}
+
+.about-content .about-profile-picture {  /*added for mobile*/
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .about-content .about-profile-picture img {
@@ -1502,17 +1508,11 @@ label#nf-label-field-7 {
 		width: 31%;
 	}
 
-	.homepage-services .individual-service-item h3 {
-		font-size: 1.5em;
+	.featured-work .homepage-featured-work {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 25px;
 	}
 
-	.homepage-services .individual-service-item p {
-		font-size: 1.25em;
-	}
-
-	.homepage-services .service-icon i {
-		font-size: 4em;
-	}
 
 	/*** Contact Page ***/
 
@@ -1531,6 +1531,34 @@ label#nf-label-field-7 {
 	.site-footer .site-info, .social-media {
 		width: 50%;
 	}
+
+	/*** Homepage styles***/
+
+	.homepage-services .individual-service-item h3 {
+		font-size: 1.5em;
+	}
+
+	.homepage-services .individual-service-item p {
+		font-size: 1.25em;
+	}
+
+	.homepage-services .service-icon i {
+		font-size: 4em;
+	}
+
+	.about-section .about-content {
+		flex-flow: row nowrap; /*added for mobile*/
+	}
+
+	.about-content .about-text {
+		width: 65%; /*65%*/
+		margin-bottom: 0; 
+	}
+
+	.about-content .about-profile-picture {
+		display: block;
+	}
+
 
 	/*** Contact Page ***/
 
