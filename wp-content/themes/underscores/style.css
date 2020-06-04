@@ -992,8 +992,7 @@ h1 {
    font-size: 1.5em;
 }
 h2 {
-   font-size: 20px;
-   font-size: 1.25em;
+   font-size: 1.75em; /*2em*/
 	 text-transform: uppercase;
 }
 h3 {
@@ -1101,7 +1100,7 @@ figure {
 	align-content: center;
 	list-style: none;
 	padding: 0;
-	margin: 1em 0; 
+	margin: 1em 0;
 }
 
 .site-footer .social-media-menu li {
@@ -1119,27 +1118,22 @@ figure {
 /**** Homepage Styles - Hero Area ****/
 
 .homepage {
-	background: url("img/hero-img.jpg") no-repeat fixed right center / cover rgba(0, 0, 0, 0);
+	background: url("img/hero-img.jpg") no-repeat fixed right center / cover #F7CFBA;
 	height: auto;
-	/*margin: 0 0 5em;*/
-	padding: 8em 0;
+	padding: 7em 0;
 	text-align: center;
 }
 
-/*.hero-content {
-	min-height: 250px;
-}*/
-
 .homepage .hero-content h1 {
-	font-size: 3.5em;
+	font-size: 2.5em;
 	font-weight: 600;
 	text-transform: uppercase;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.5em;
 }
 
 .homepage .hero-content h2 {
-	font-size: 1.75em;
-	margin: 0 0 1.5em;
+	font-size: 1.25em;
+	margin: 0 0 2em;
 }
 
 .hero-content .entry-content {
@@ -1150,7 +1144,7 @@ figure {
 	background: #2E9470;
 	border-radius: 5px;
 	color: #f3f3f3;
-	font-size: 1.25em;
+	font-size: 1em;
 	padding: 0.5em 1.5em;
 	text-decoration: none;
 }
@@ -1170,7 +1164,6 @@ figure {
 }
 
 .homepage-services h2 {
-	font-size: 2em;
 	margin: 0;
 	width: 100%;
 	text-align: center;
@@ -1178,7 +1171,8 @@ figure {
 
 .homepage-services .service-items {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: center;
 	align-content: center;
 	width: 100%;
 	margin-top: 3em;
@@ -1189,25 +1183,26 @@ figure {
 	justify-content: center;
 	align-content: flex-start;
 	flex-flow: row wrap;
-	width: 31%;
+	margin-bottom: 2em; /*added for mobile*/
+	width: 100%; /*31%*/
 }
 
 .homepage-services .individual-service-item h3 {
 	color: #2E9470;
-	font-size: 1.5em;
+	font-size: 1.25em; /*1.5em*/
 	width: 100%;
 	text-align: center;
 }
 
 .homepage-services .individual-service-item p {
 	text-align: center;
-	font-size: 1.25em;
+	font-size: 1em; /*1.25em*/
 	margin: 0;
 }
 
 .homepage-services .service-icon i {
 	color: #2E9470;
-	font-size: 4em;
+	font-size: 3.75em; /*4em*/
 }
 
 .featured-work {
@@ -1415,7 +1410,7 @@ div.post-navigation .back-to-work-link {
 
 .contact-page .site-content {
 	padding: 4em 0;
-	width: 45%;
+	width: 90%;
 }
 
 .contact-page h1 {
@@ -1453,6 +1448,10 @@ label#nf-label-field-7 {
 @media only screen and (min-width: 768px) {
 	/*General styles*/
 
+	h2 {
+		font-size: 2em;
+	}
+
 	/*Footer styles*/
 
 	.site-footer .site-content {
@@ -1474,6 +1473,53 @@ label#nf-label-field-7 {
 		margin: 1em 0 0;
 	}
 
+	/*Homepage styles*/
+
+	.homepage {
+		padding: 8em 0;
+	}
+
+	.homepage .hero-content h1 {
+		font-size: 3.5em;
+		margin-bottom: 0.25em;
+	}
+
+	.homepage .hero-content h2 {
+		font-size: 1.75em;
+		margin: 0 0 1.5em;
+	}
+
+	.homepage .hero-content .cta-button {
+		font-size: 1.25em;
+	}
+
+	.homepage-services .service-items {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.homepage-services .individual-service-item {
+		width: 31%;
+	}
+
+	.homepage-services .individual-service-item h3 {
+		font-size: 1.5em;
+	}
+
+	.homepage-services .individual-service-item p {
+		font-size: 1.25em;
+	}
+
+	.homepage-services .service-icon i {
+		font-size: 4em;
+	}
+
+	/*** Contact Page ***/
+
+	.contact-page .site-content {
+		width: 70%;
+	}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1484,6 +1530,12 @@ label#nf-label-field-7 {
 
 	.site-footer .site-info, .social-media {
 		width: 50%;
+	}
+
+	/*** Contact Page ***/
+
+	.contact-page .site-content {
+		width: 45%;
 	}
 
 }
