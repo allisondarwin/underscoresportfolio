@@ -59,7 +59,7 @@ get_header();
 		</div>
 	</section><!--end adwd services-->
 
-	<section class="featured-work">
+	<section id="work" class="featured-work">
 		<div class="site-content">
 			<h2>Featured Projects</h2>
 				<ul class="homepage-featured-work">
@@ -81,7 +81,7 @@ get_header();
 		</div>
 	</section>
 
-	<section class="about-section">
+	<section id="about" class="about-section">
 		<div class="site-content">
 			<h2>About Me</h2>
 			<div class="about-content">
