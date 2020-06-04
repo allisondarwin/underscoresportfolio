@@ -1115,6 +1115,7 @@ figure {
 
 .site-footer .social-media-menu li a {
 	color: #2E9470;
+	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
 	text-decoration: none;
 }
 
@@ -1448,5 +1449,6 @@ label#nf-label-field-7 {
 	background: #2E9470;
 	text-transform: uppercase;
 	padding: 1em 1.75em;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 600;
 }

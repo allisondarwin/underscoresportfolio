@@ -18,7 +18,7 @@ get_header();
 				the_post();
 
 				get_template_part( 'template-parts/content', 'page' );?>
-				<a class="cta-button" href="<?php echo site_url('/#/') ?>">Get in Touch</a><?php
+				<a class="cta-button" href="<?php echo site_url('/contact/') ?>">Get in Touch</a><?php
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				 if ( comments_open() || get_comments_number() ) :
@@ -101,7 +101,7 @@ get_header();
 		<div class="site-content">
 			<h2>Want a webiste that looks great and grows your business?</h2>
 			<h3>I can help.</h3>
-			<a class="cta-button" href="#">Contact Me</a>
+			<a class="cta-button" href="<?php echo site_url('/contact/') ?>">Contact Me</a>
 		</div>
 	</section>
 
