@@ -1364,6 +1364,7 @@ figure {
 .case-study-content .case-study-text h3 {
 	font-size: 1.56em;
 	margin: 0;
+	text-align: left;
 }
 
 .case-study-content .case-study-text h4 {
@@ -1386,6 +1387,22 @@ figure {
 
 .case-study-images img {
 	margin-bottom: 50px;
+}
+
+div.post-navigation {
+	border-top: 1px solid #bfbfbf;
+	padding: 1em 0;
+}
+
+div.post-navigation a {
+	color: #1F3649;
+	font-size: 0.875em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+div.post-navigation .back-to-work-link {
+	padding-left: 0.5em;
 }
 
 /*** Contact Page Styles ***/

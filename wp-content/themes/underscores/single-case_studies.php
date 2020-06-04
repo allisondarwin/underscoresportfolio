@@ -79,6 +79,10 @@ get_header();
     </div>
   </article>
 
+	<nav id="navigation" class="site-content">
+			<div class="post-navigation"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span class="back-to-work-link">Back to work</span></a></div>
+	</nav>
+
 <?php
 
 get_footer();
