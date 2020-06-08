@@ -146,6 +146,12 @@ function underscores_portfolio_scripts() {
 	wp_enqueue_style( 'underscores-portfolio-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'underscores-portfolio-style', 'rtl', 'replace' );
 
+	// deregister default jQuery included with Wordpress
+	wp_deregister_script( 'jquery' );
+
+	$jquery_cdn = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js';
+	wp_enqueue_script( 'jquery', $jquery_cdn, array(), '3.4.1', true );
+
 	wp_enqueue_script( 'underscores-portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	wp_enqueue_script( 'underscores-portfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), _S_VERSION, true );

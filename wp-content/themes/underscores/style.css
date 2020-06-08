@@ -1072,6 +1072,20 @@ figure {
 	text-transform: uppercase;
 }
 
+.main-navigation .menu-toggle {
+	color: #f3f3f3;
+}
+
+.site-header .main-navigation .menu-item {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.site-header .main-navigation .menu-item.active {
+    display: block;
+}
+
 /**** Footer Styles ****/
 
 .site-footer {
@@ -1634,7 +1648,7 @@ label#nf-label-field-7 {
 	}
 
 	.case-study-content {
-		margin: 100px 0;   
+		margin: 100px 0;
 	}
 
 	.case-study-content .case-study-text {

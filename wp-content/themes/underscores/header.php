@@ -47,7 +47,9 @@
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'underscores-portfolio' ); ?></button>
+				<div class="menu-toggle">
+					<p class="hamburger">&#9776;</p>
+				</div>
 				<?php
 				wp_nav_menu(
 					array(
