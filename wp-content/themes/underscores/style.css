@@ -1032,12 +1032,12 @@ figure {
 }
 
 .site-header .site-branding {
-	width: 60%; /*30%*/
+	width: 60%;
 }
 
 .site-header .site-branding .site-title {
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-	font-size: 1.25em; /*1.75em*/
+	font-size: 1.25em;
 	text-transform: uppercase;
 	margin: 0.15em 0;
 }
@@ -1052,17 +1052,17 @@ figure {
 }
 
 .site-header .main-navigation {
-	display: flex;           /*added for mobile*/
-	flex-direction: column;  /*added for mobile*/
-	justify-content: center; /*added for mobile*/
-	width: 30%; /*40%*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
 }
 
 .site-header .main-navigation ul {
 	display: flex;
-	justify-content: center;  /*flex-end*/
+	justify-content: center;
 	align-content: center;
-	flex-direction: column; /*added for mobile*/
+	flex-direction: column;
 }
 
 .site-header .main-navigation ul li {
@@ -1487,6 +1487,31 @@ label#nf-label-field-7 {
 		font-size: 2em;
 	}
 
+	/*Header styles*/
+
+	.site-header .site-branding {
+		width: 50%; /*30%*/
+	}
+
+	.site-header .site-branding .site-title {
+		font-size: 1.75em; /*1.75em*/
+	}
+
+	.site-header .main-navigation {
+		flex-direction: row;
+		justify-content: flex-start;
+		width: 50%; /*40%*/
+	}
+
+	.site-header .main-navigation ul {
+		justify-content: flex-end;  /*flex-end*/
+		flex-direction: row; /*row*/
+	}
+
+	.site-header .main-navigation .menu-item {
+	    display: block;
+	}
+
 	/*Footer styles*/
 
 	.site-footer .site-content {
@@ -1611,6 +1636,17 @@ label#nf-label-field-7 {
 		width: 50%;
 	}
 
+	/* Header styles*/
+
+	.site-header .site-branding {
+		width: 30%; /*30%*/
+	}
+
+	.site-header .main-navigation {
+		justify-content: flex-end;
+		width: 40%; /*40%*/
+	}
+
 	/*** Homepage styles***/
 
 	.homepage-services .individual-service-item h3 {
@@ -1618,7 +1654,7 @@ label#nf-label-field-7 {
 	}
 
 	.homepage-services .individual-service-item p {
-		font-size: 1.25em;
+		font-size: 1.1em;
 	}
 
 	.homepage-services .service-icon i {
