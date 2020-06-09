@@ -1032,12 +1032,12 @@ figure {
 }
 
 .site-header .site-branding {
-	width: 30%;
+	width: 60%; /*30%*/
 }
 
 .site-header .site-branding .site-title {
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-	font-size: 1.75em;
+	font-size: 1.25em; /*1.75em*/
 	text-transform: uppercase;
 	margin: 0.15em 0;
 }
@@ -1052,13 +1052,17 @@ figure {
 }
 
 .site-header .main-navigation {
-	width: 40%;
+	display: flex;           /*added for mobile*/
+	flex-direction: column;  /*added for mobile*/
+	justify-content: center; /*added for mobile*/
+	width: 30%; /*40%*/
 }
 
 .site-header .main-navigation ul {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;  /*flex-end*/
 	align-content: center;
+	flex-direction: column; /*added for mobile*/
 }
 
 .site-header .main-navigation ul li {
@@ -1074,6 +1078,16 @@ figure {
 
 .main-navigation .menu-toggle {
 	color: #f3f3f3;
+}
+
+.main-navigation .menu-toggle p {
+	float: right;
+	margin: 0;
+}
+
+.main-navigation .menu-toggle .hamburger {
+	font-size: 1.5em;
+	margin-right: 0.5em;
 }
 
 .site-header .main-navigation .menu-item {
