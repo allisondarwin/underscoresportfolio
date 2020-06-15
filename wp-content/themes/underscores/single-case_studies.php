@@ -37,16 +37,18 @@ get_header();
 				<?php
 					$client = get_field('case_study_client');
 					$services = get_field('case_study_services');
+					$completion_date = get_field('case_study_completion_date');
 					$client_description = get_field('case_study_client_description');
-					$problem = get_field('case_study_problem');
+					$objective = get_field('case_study_objective');
 					$solution = get_field('case_study_solution');
 					$results = get_field('case_study_results');
 					$link = get_field('case_study_link');
 					$testimonial = get_field('case_study_testimonial')?>
         <h3><span>Client:</span> <?php echo $client ?></h3>
 				<h4><?php echo $services ?></h4>
+				<h4>Completion date: <?php echo $completion_date ?></h4>
 				<p><?php echo $client_description ?></p>
-        <p><span>The problem:</span> <?php echo $problem ?></p>
+        <p><span>The objective:</span> <?php echo $objective ?></p>
         <p><span>The solution:</span> <?php echo $solution ?></p>
 				<?php if ($results) { ?>
         	<p><span>The results:</span> <?php echo $results ?></p>
