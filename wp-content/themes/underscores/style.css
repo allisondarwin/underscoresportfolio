@@ -1162,6 +1162,7 @@ figure {
 .homepage .hero-content h2 {
 	font-size: 1.25em;
 	margin: 0 0 2em;
+	text-transform: none;
 }
 
 .hero-content .entry-content {

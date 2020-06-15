@@ -37,6 +37,7 @@ get_header();
 				<?php
 					$client = get_field('case_study_client');
 					$services = get_field('case_study_services');
+					$client_description = get_field('case_study_client_description');
 					$problem = get_field('case_study_problem');
 					$solution = get_field('case_study_solution');
 					$results = get_field('case_study_results');
@@ -44,6 +45,7 @@ get_header();
 					$testimonial = get_field('case_study_testimonial')?>
         <h3><span>Client:</span> <?php echo $client ?></h3>
 				<h4><?php echo $services ?></h4>
+				<p><?php echo $client_description ?></p>
         <p><span>The problem:</span> <?php echo $problem ?></p>
         <p><span>The solution:</span> <?php echo $solution ?></p>
 				<?php if ($results) { ?>
@@ -80,7 +82,7 @@ get_header();
   </article>
 
 	<nav id="navigation" class="site-content">
-			<div class="post-navigation"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span class="back-to-work-link">Back to work</span></a></div>
+			<div class="post-navigation"><a href="https://allisondarwin.com/#work">&larr; <span class="back-to-work-link">Back to work</span></a></div>
 	</nav>
 
 <?php
