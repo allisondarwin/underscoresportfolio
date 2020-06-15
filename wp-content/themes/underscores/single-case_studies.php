@@ -46,7 +46,7 @@ get_header();
 					$testimonial = get_field('case_study_testimonial')?>
         <h3><span>Client:</span> <?php echo $client ?></h3>
 				<h4><?php echo $services ?></h4>
-				<h4>Completion date: <?php echo $completion_date ?></h4>
+				<h4><?php echo $completion_date ?></h4>
 				<p><?php echo $client_description ?></p>
         <p><span>The objective:</span> <?php echo $objective ?></p>
         <p><span>The solution:</span> <?php echo $solution ?></p>
