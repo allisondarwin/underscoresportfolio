@@ -1442,6 +1442,20 @@ div.post-navigation .back-to-work-link {
 	padding-left: 0.5em;
 }
 
+.skillcrush-link:link {
+	color: #1F3649;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.skillcrush-link:visited {
+	color: #1F3649;
+}
+
+.skillcrush-link:hover {
+	color: #2E9470
+}
+
 /*** Contact Page Styles ***/
 
 .contact-page .site-content {
