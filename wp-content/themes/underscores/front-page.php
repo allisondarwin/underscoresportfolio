@@ -99,7 +99,7 @@ get_header();
 
 	<section class="homepage-contact">
 		<div class="site-content">
-			<h2>Want a webiste that looks great and grows your business?</h2>
+			<h2>Want a website that looks great and grows your business?</h2>
 			<h3>I can help.</h3>
 			<a class="cta-button" href="<?php echo site_url('/contact/') ?>">Contact Me</a>
 		</div>
