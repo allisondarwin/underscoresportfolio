@@ -1121,6 +1121,10 @@ figure {
 	width: 100%;
 }
 
+.site-footer .site-info p {
+	text-align: left;
+}
+
 .site-footer .social-media-menu {
 	display: flex;
 	width: 100%;
