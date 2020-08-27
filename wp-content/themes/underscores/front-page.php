@@ -81,6 +81,18 @@ get_header();
 		</div>
 	</section>
 
+	<section id="testimonials" class="homepage-testimonials">
+		<div class="site-content">
+			<h2>Clients Say...</h2>
+			<div class="testimonial-items">
+				<article class="individual-testimonial">
+					<p class="testimonial-content">"Allison is absolutely outstanding. She built a beautiful, modern, SEO friendly website for my mom's cleaning business. Not only did she do that but, she also educated me and created a reference guide for me. She truly listens to what you need and enhances to something so much better than you imagined. Also, she is very prompt and communicative. I am definitely working with her in the future."</p>
+					<p class="testimonial-name">Cecy's Cleaning</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
 	<section id="about" class="about-section">
 		<div class="site-content">
 			<h2>About Me</h2>
