@@ -1238,6 +1238,8 @@ figure {
 	font-size: 3.75em;
 }
 
+/***homepage styles - featured work***/
+
 .featured-work {
 	background: #fff;
 	padding: 4em 0;
@@ -1270,6 +1272,32 @@ figure {
 	text-align: center;
 	text-decoration: none;
 }
+
+/***homeage styles - testimonials***/
+
+.homepage-testimonials {
+	background: #1F3649;
+	color: #f3f3f3;
+	padding: 4em 0 2em;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+.homepage-testimonials h2 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.homepage-testimonials .individual-testimonial {
+	margin-bottom: 2.5em;
+}
+
+.homepage-testimonials .testimonial-content {
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+/***homepage styles - about section ***/
 
 .about-section {
 	background: #f3f3f3;

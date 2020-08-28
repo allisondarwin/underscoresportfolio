@@ -87,7 +87,11 @@ get_header();
 			<div class="testimonial-items">
 				<article class="individual-testimonial">
 					<p class="testimonial-content">"Allison is absolutely outstanding. She built a beautiful, modern, SEO friendly website for my mom's cleaning business. Not only did she do that but, she also educated me and created a reference guide for me. She truly listens to what you need and enhances to something so much better than you imagined. Also, she is very prompt and communicative. I am definitely working with her in the future."</p>
-					<p class="testimonial-name">Cecy's Cleaning</p>
+					<p class="testimonial-name"><strong>Cecy's Cleaning</strong></p>
+				</article>
+				<article class="individual-testimonial">
+					<p class="testimonial-content">"Allison recently reviewed my website and did a fantastic job. She is professional and thorough, and provided some great insights and suggestions. I would highly recommend Allison."</p>
+					<p class="testimonial-name"><strong>Laura, Wix Website Review</strong></p>
 				</article>
 			</div>
 		</div>
