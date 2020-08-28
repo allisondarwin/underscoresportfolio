@@ -19,9 +19,8 @@
 			</div><!-- .site-info -->
 			<div class="social-media">
 				<ul class="social-media-menu">
-					<li><a href="https://www.linkedin.com/in/allisondarwin/" target="_blank">LinkedIn</a></li>
-					<li><a href="https://twitter.com/allisonpdarwin" target="_blank">Twitter</a></li>
-					<li><a href="https://github.com/allisondarwin" target="_blank">GitHub</a></li>
+					<li><a href="https://www.facebook.com/webdesignbyallison" target="_blank">Facebook</a></li>
+					<li><a href="https://www.instagram.com/webdesignbyallison/" target="_blank">Instagram</a></li>
 				</ul>
 			</div><!-- end social media-->
 		</div><!-- end .site-content -->
