@@ -1537,6 +1537,10 @@ label#nf-label-field-7 {
 }
 
 .archive-case-study {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
 	padding: 25px 0;
 }
 
@@ -1698,8 +1702,9 @@ label#nf-label-field-7 {
 
 	.case-study-archive {
 		padding-top: 50px;
-		display: flex;
-		flex-flow: row;
+	}
+
+	.archive-case-study {
 		justify-content: space-between;
 	}
 
