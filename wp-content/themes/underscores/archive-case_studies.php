@@ -25,7 +25,7 @@ get_header();
             	   <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             	   <h5><?php echo $services; ?></h5>
 							   <?php the_excerpt(); ?>
-							   <p class="read-more-link"><a href="<?php the_permalink(); ?>">View Project &gt;</p></a>
+							   <p class="archive-read-more-link"><a href="<?php the_permalink(); ?>">View Project &gt;</p></a>
       		    </aside>
       		    <div class="archive-case-study-images">
                   <a href="<?php the_permalink(); ?>">
