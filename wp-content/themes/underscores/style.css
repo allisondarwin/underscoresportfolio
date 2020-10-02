@@ -1536,6 +1536,10 @@ label#nf-label-field-7 {
 	flex-flow: row wrap;
 }
 
+.case-study-archive .site-footer {
+	width: 100%;
+}
+
 .archive-case-study {
 	display: flex;
 	flex-flow: row wrap;
